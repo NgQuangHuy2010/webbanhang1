@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+.overlay-button {
+  margin: 10px 0px;
+  padding: 5px 10px;
+  
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar-brand {
+  margin-right: auto;
+  font-family: "Bungee Shade", cursive;
+  color: #28a745;
+  font-size: 20pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-brand:hover {
+  color: #28a745;
+  transition-delay: 0.5s;
+}
+.logo-apple {
+  width: 80px;
+  aspect-ratio: 2/3;
+  object-fit: contain;
+  
+}
+.fa-user{
+  color: #000000;
+  font-size: 25px;
+}
+.fa-right-to-bracket {
+  margin-right: 5px;
+}
+.fa-cart-shopping {
+  color: #000000;
+  font-size: 25px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Styling for overlay */
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.overlay-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.login-form {
+  background-color: #e9e9e7;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+ 
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.text-login {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.text-signup {
+  display: flex;
+  justify-content: space-between;
+}
+.text-signup a {
+  text-decoration: none;
+  color: black;
+}
+.text-signup a:hover {
+  text-decoration: underline;
+}
+.container-fluid {
+  background-color: #FFFFFF;
+
+}
+.navbar {
+  justify-content: space-between;
+  padding: 0px;
+  font-family: "Inter", sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.navbar-brand::first-letter {
+  color: #8c8287;
+  font-size: 30pt;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 1rem;
+  color: red;
+}
+
+.overlay-button {
+  margin-right: 1rem;
+}
+.nav-link {
+  margin-right: 3rem;
+  color: #111111;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+}
+.navbar-nav .nav-link:hover {
+  color: #28a745;
+}
+.btn-primary {
+  background-color: #28a745;
+  border: none;
+  transition: background-color 1s, color 1s;
+}
+
+.btn-primary:hover {
+background-color: #339900;
+transition:1s ;
+}
+.navbar-toggler {
+  background-color: #8c8287;
+}
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.banner img{
+  width: 100%;
+}
+.text-banner {
+  max-width: 30%;
+  word-wrap: break-word; /*khong cho tran va xuong dong*/
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #28a745;
+  font-size: 24px;
+  text-align: center;
+ 
+}
+.text-banner h1 {
+  font-size: 50pt;
+  font-family: "Oswald", sans-serif;
+}
+.text-banner h3 {
+  font-family: "Oswald", sans-serif;
+}
+.btn-success{
+  padding: 10px 20px;
+}
+.fa-caret-right{
+margin-left: 3px;
+color: #ffffff;
+}
+.tittle-demo{
+  font-size: 30pt;
+  color: #A2CD5A;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 20px;
+}
+.card-title-demo{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15pt;
+}
+
+.card-text-demo{
+  font-family: 'Quicksand', sans-serif;
+}
+.tittle-product{
+  font-size: 30pt;
+  color: #A2CD5A;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-title-product{
+  margin-bottom: 10px;
+  font-family: 'Quicksand', sans-serif;
+}
+.splide__slide .card-img-product {
+  height:200px;
+
+}
+.container-product{
+  z-index: 1;
+}
+.product-fruits{
+  margin-top: 100px;
+
+}
+.card-text-price{
+color: crimson;
+font-size: 12pt;
+}
+.product-fruits-fresh{
+margin-top: 100px;
+}
+
+.icon-footer{
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.container-icon-footer{
+  background-color:#e9e9e7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) and (min-width:319px){
+  .text-banner{
+    max-width: 40%;
+    word-wrap: break-word; /*khong cho tran va xuong dong*/
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #28a745;
+ 
+    text-align: center;
+  }
+  .text-banner h3 {
+    font-size: 10px;
+  }
+
+  .text-banner h1 {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  .btn-success{
+    margin: 0px;
+    font-size:xx-small;
+    padding: 2px;
+  }
+  .banner{
+    margin-top: 70px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .text-banner{
+    max-width: 40%;
+    word-wrap: break-word; /*khong cho tran va xuong dong*/
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #28a745;
+ 
+    text-align: center;
+  }
+  .text-banner h3 {
+    font-size: 15px;
+  }
+
+  .text-banner h1 {
+    font-size: 25px;
+  }
+  .btn-success{
+    margin: 0px;
+    font-size:x-small;
+    padding: 5px;
+  }
+  .col-sm-6{
+  width: 100%;}
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .text-banner{
+    max-width: 60%;
+    word-wrap: break-word; /*khong cho tran va xuong dong*/
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #28a745;
+
+    text-align: center;
+  }
+  .text-banner h3 {
+    font-size: 15px;
+  }
+
+  .text-banner h1 {
+    font-size: 25px;
+  }
+  .btn-success{
+    margin: 0px;
+    font-size:x-small;
+    padding: 5px;
+  }
+}
+
+
+
+
+@media (min-width: 1024px)and (max-width:1366px) {
+  .text-banner{
+    max-width: 60%;
+    word-wrap: break-word; /*khong cho tran va xuong dong*/
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #28a745;
+
+    text-align: center;
+  }
+  .text-banner h3 {
+    font-size: 20px;
+  }
+
+  .text-banner h1 {
+    font-size: 40px;
+  }
+  .btn-success{
+    margin: 0px;
+    font-size:x-small;
+    padding: 5px;
+  }
+ 
+}
